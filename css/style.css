@@ -409,9 +409,9 @@ footer p {
 }
 
 .toggle-button .active .fa-bars {
-    display: none;
+    display: inline;
 }
 
 .toggle-button .active .fa-xmark {
-    display: inline;
+    display: none;
 }

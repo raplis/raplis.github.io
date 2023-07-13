@@ -68,7 +68,7 @@ var sidebarContent = document.querySelector('.sidebar');
 
 toggleButton.addEventListener('click', function () {
     sidebarContent.classList.toggle('hide');
-    toggleButton.classList.toggle('active');
+    // toggleButton.classList.toggle('active');
 
 });
 
