@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="images/favicon.ico" rel="icon">
+    <title>Ciallo!</title>
+    <link crossorigin="anonymous" href=
+            "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity=
+                  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          rel="stylesheet"><!-- FontAwesome Icon Font -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel=
+            "stylesheet"><!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
+</head>
+<script src="https://kit.fontawesome.com/3a872e8c4b.js" crossorigin="anonymous"></script>
+
+<body>
+
+
+<section class="section-image" id="pageone">
+
+    <div class="sidebar" id = "side">
+        <p id="sidebar">
+        <a href="#pageone">Front Page</a><br>
+        <a href="#about">About Me</a><br>
+        <a href="#skills">Skills and Honors</a><br>
+        <a href="#timeline-section">Projects</a></p>
+    </div>
+
+    <button class="toggle-button" onclick="toggleIcons()">
+        <i class="fa fa-bars fa-2x"></i>
+        <i class="fa fa-times fa-3x" style="display: none;"></i>
+    </button>
+    <div class="img-overlay"></div>
+    <div class="intro">
+        <div class="content">
+            <!-- 网页内容 -->
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Hi there</h4>
+                <h1 id="name">I'm Yunze Zhang</h1>
+                <p class="intro-desc">
+                    <span id="chemeng">Chemical Engineering</span>
+                    <i class="fa-solid fa-arrow-right fa-3x"></i>
+                    <span id="chem">Chemistry</span>
+                    <i class="fa-solid fa-arrow-right fa-3x"></i>
+                    <span id="ece">Electrical and Computer Engineering</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 ">
+                <div class="social">
+                    <a href="files/EnglishResume-ZYZ.pdf" download title="Download Resume!"
+                       target="_blank"><i class="fa fa-download fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/%E4%BA%91%E6%B3%BD-%E5%BC%A0-a36b9b263/"
+                       target="_blank" title="My Linkedin!"><i class="fa fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/raplis" target="_blank" title="My Github!"><i
+                            class="fa fa-github fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom">
+            <a href="#about" class="explore">Explore My Life Below!</a>
+        </div>
+    </div>
+</section>
+
+<section class="section-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <img class="profilepic" src="images/myself.jpg" id="myImage" title="there's an Easter egg!">
+                <h2>About Me</h2>
+                <hr>
+                <p class="lead">Nice to see you here!<br>
+                    I am Raplis Zhang, a graduate student from Duke University, and I'm going to graduate in May 2024.
+                    I am good at data structure & algorithm, Java & C++ OO design, system programming (concurrency, TCP
+                    socket).
+                    I have a strong passion for writing high quality code. <br>
+                    And I love my cat <a id="cat">"Mimi"</a>!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-image" id="skills">
+    <div class="img-overlay"></div>
+
+    <div class="container">
+        <div class="rows" id="third-page">
+            <div class="col-md-12 section-heading">
+                <h2 class="skillhead">Skills and Honors</h2>
+                <hr>
+            </div>
+        </div>
+        <p class="skills">
+            <span><i class="fa fa-solid fa-star" style="color: #ffffff;"></i></span>
+            <span class="values">C/C++ (Skilled), Verilog, Java, Python </span><br>
+
+            <span><i class="fa fa-regular fa-star" style="color: #8fb5c4;"></i></span>
+            <span class="values2">Valgrind, GDB, Linux Environment, Git, Junit</span><br>
+
+            <span><i class="fa fa-solid fa-star" style="color: #8fb5c4;"></i></span>
+            <span>English (skilled, Duolingo: 125), Chinese (mother language)<br></span>
+
+            <span><i class="fa fa-regular fa-star" style="color: #8fb5c4;"></i></span>
+            <span class="values2">Learning Excellence Award (First Prize: 2019, 2020 Second Prize: 2021), etc</span>
+            <br>
+
+            <span><i class="fa fa-solid fa-star" style="color: #8fb5c4;"></i></span>
+            <span class="values">Outstanding Merit Student of School (2021)</span><br>
+
+            <span><i class="fa fa-regular fa-star" style="color: #8fb5c4;"></i></span>
+            <span class="values2">Outstanding Graduates of Dalian (2021)</span><br>
+
+            <span><i class="fa fa-solid fa-star" style="color: #8fb5c4;"></i></span>
+            <span class="values">National Undergraduate Mathematics Contest(National Second, Third Prize)</span>
+        </p>
+    </div>
+</section>
+
+<section class="section-primary" id="timeline-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-heading">
+                <h2>Projects</h2>
+                <hr class="white">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div id="timeline">
+                    <!-- Timeline Item, copy from here to create various boxes -->
+                    <div class="timeline-item">
+                        <!--Icon inside the circle-->
+                        <div class="timeline-icon" id = "icon1">
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <!-- Content from timeline box and position (right or left)-->
+                        <div class="timeline-content right">
+                            <h2><a href="https://github.com/raplis" style="color:white;"><b>Hot Potato</b> (C/C++, Socket) </a><i class="fa-solid fa-bomb" style="color:#4064a1"></i>
+                            </h2>
+                            <ul class="pro"><br>
+                                <li>Designed and implemented a multi-process hot potato game based on <b>TCP</b>
+                                    connection using <b>C/C++</b>
+                                    where players randomly pass the potato to the left or right
+                                </li>
+                                <li>Added a timer function at the host end to randomly end the game and output the
+                                    potato path
+                                </li>
+                                <li>Used <b>select</b> function to manage multiple socket file descriptors, and
+                                    implemented
+                                    ring network structure and message
+                                    passing mechanism
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" id="secondline">
+                        <div class="timeline-icon" id = "icon2">
+                            <i class="fa fa-cog"></i>
+                        </div>
+
+
+                        <div class="timeline-content left" id="page2">
+                            <h2>
+                                <a href="https://github.com/raplis" style="color:white;"><b>Battleship Game</b> (Java, Gradle)</a>
+                                </h2>
+                            <ul class="pro">
+                                <br>
+                                <li>This text version of the board game was designed using <b>Java</b> language and
+                                    built
+                                    through <b>Gradle</b>, supporting
+                                    everyone and man-machine battle
+                                </li>
+                                <li>Followed the Single Responsibility Principle and Interface Segregation Principle,
+                                    two Interfaces and 20 Classes were
+                                    used for design
+                                </li>
+                                <li>Followed the principle of test-driven development, and achieved branch tests with
+                                    100% coverage
+                                </li>
+                                <li>Used <b>Git</b> to manage code modification, submission, and host the code on <b>Gitlab</b>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <!--Icon inside the circle-->
+
+
+                        <div class="timeline-icon"  id = "icon3">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                        <!-- Content from timeline box and position (right or left)-->
+
+
+                        <div class="timeline-content right" id="page3">
+                            <h2><a href="https://github.com/raplis" style="color:white;"><b>Thread-safe memory allocator</b> (C, thread-safe)</a>
+                                </h2>
+                            <ul class="pro">
+                                <br>
+                                <li>Used <b>Best-Fit</b> and <b>First-Fit</b> allocation strategies, implemented malloc
+                                    and free
+                                    functions, and conducted
+                                    performance evaluation based on memory usage and allocation time
+                                </li>
+                                <li>Used NoLock (Thread Local Storage) and Lock (pthread mutex) to implement the memory
+                                    allocation function of the
+                                    Best-Fit strategy, and through the code test, it is guaranteed to be thread-safe.
+                                </li>
+                                <li>Used Valgrind to check memory leaks and GDB to debug.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!-- /Timeline Item-->
+                    <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                    <div class="timeline-item">
+                        <!--Icon inside the circle-->
+
+
+                        <div class="timeline-icon"  id = "icon4">
+                            <i class="fa fa-group"></i>
+                        </div>
+                        <!-- Content from timeline box and position (right or left)-->
+
+
+                        <div class="timeline-content left" id="page4">
+                            <h2><a href="https://github.com/raplis" style="color:white;"><b>Tetris Game</b>(Verilog, Assembly Language)</a>
+                            </h2>
+                            <ul class="pro">
+                                <br>
+                                <li>Wrote a processor with a clock frequency of 10MHz and support 16 instructions in
+                                    <b>Verilog</b>
+                                </li>
+                                <li>Used <b>assembly language</b> to write the program of the game, and design seven functions
+                                    such as rotation, pause,
+                                    elimination, and random shape of the square
+                                </li>
+                                <li>Converted the game program into binary code and input it into ROM</li>
+                                <li>Output the picture of 640*480 pixels to the display through the VGA interface, and
+                                    used the PS2 keyboard to control
+                                    the block
+                                </li>
+                                <li>Designed the UI of the game on the monitor</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!-- /Timeline Item-->
+                    <!-- Timeline Item, copy from here to create various boxes -->
+
+
+<!--                    <div class="timeline-item">-->
+<!--                        &lt;!&ndash;Icon inside the circle&ndash;&gt;-->
+
+
+<!--                        <div class="timeline-icon">-->
+<!--                            <i class="fa fa-star"></i>-->
+<!--                        </div>-->
+<!--                        &lt;!&ndash; Content from timeline box and position (right or left)&ndash;&gt;-->
+
+
+<!--                        <div class="timeline-content right">-->
+<!--                            <h2>This Happened</h2>-->
+
+
+<!--                            <p>Lorem ipsum dolor sit amet, consectetur-->
+<!--                                adipisicing elit. Atque, facilis quo maiores-->
+<!--                                magnam modi ab libero praesentium-->
+<!--                                blanditiis.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <!-- /Timeline Item-->
+                </div>
+                <!-- /col-md-12 -->
+            </div>
+            <!-- /row -->
+        </div>
+    </div> <!-- / container -->
+</section>
+<!-- FOOTER SECTION -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p></p>
+            </div>
+
+
+            <div class="col-md-4 text-center">
+                <p class="keys">You've reach the bottom!</p>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="social-footer">
+                    </a> <a href= "http://www.github.com/raplis" target="_blank"><i class="fa fa-github "></i></a>
+                </div>
+            </div> <!-- /col-md-4 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src=
+                "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+
+<script src="js/bootstrap.min.js">
+</script>
+<script src="js/scripts.js">
+</script>
+</body>
+</html>

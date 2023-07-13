@@ -1,0 +1,417 @@
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+a {
+    cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1abc9c;
+    opacity: 0.9;
+}
+
+hr {
+    border-top: 5px solid #1abc9c;
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+
+.colour-splash {
+    color: #1abc9c;
+}
+
+.section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.explore {
+    color: #81bc1a;
+    font-weight: bolder;
+    font-size: 4em;
+    opacity: 1;
+    position: relative;
+    top: 80px;
+    left: 0;
+    width: 100%;
+}
+
+#name {
+    /*color: radial-gradient(circle at center, #ff0000, #0000ff);*/
+    position: relative;
+    top: -50px;
+}
+
+#chemeng {
+    color: #24b32b;
+    font-size: 30px;
+}
+
+#chem {
+    color: #1abc9c;
+    font-size: 30px;
+
+}
+
+#ece {
+    color: #49962b;
+    font-size: 30px;
+
+}
+
+
+/* 02. Intro
+ * =================================================================== */
+
+.section-image {
+    background: #151515 url(/images/bee.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display: table;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .7;
+}
+
+.intro {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+}
+
+.intro .rows {
+    margin-right: 0;
+    margin-left: 0;
+    position: relative;
+    top: 30px;
+}
+
+#third-page {
+    margin-top: 120px;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h4 {
+
+    color: #24b397;
+    font-size: 7.3rem;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    /*text-transform: uppercase;*/
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.95;
+}
+
+.keys {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.values2 {
+    color: aquamarine;
+    font-size: 20px;
+}
+
+/* 03. Social Icons
+ * =================================================================== */
+
+.social {
+    margin: 0 10px;
+    padding-top: 1.3em;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    padding: 2em;
+}
+
+.social a:hover {
+    opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+/* 04. Icon Font
+ * =================================================================== */
+
+.lnr {
+    font-size: 4em !important;
+    color: #fff;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.profilepic {
+    height: 400px;
+    width: auto;
+    border-radius: 300px;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+.section-primary {
+    border: #1abc9c;
+}
+
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading .lead, .section-heading h2 {
+    text-align: center;
+}
+
+.skillhead {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: inherits;
+}
+
+.section-colour {
+    border: #fff;
+}
+
+.section-colour hr {
+    border-top: 15px solid #fff;
+}
+
+
+#skills {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    background: #151515 url(/images/library2.jpg) no-repeat center center;
+    height: 1000px;
+    color: #fff;
+}
+
+
+/* 01. Timeline Styles
+ * =================================================================== */
+
+.timeline-icon .fa {
+    color: white;
+    margin: 13px;
+    font-size: 1.7em;
+}
+
+/* 05. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.pro {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 28px;
+}
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position: block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+    }
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+}
+
+#about {
+    padding-bottom: 100px;
+}
+
+.sidebar {
+    /*height: 100%;*/
+    background-color: #2f4848;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+#side p {
+    padding: 20px;
+}
+
+#side a {
+    color: #ffffff;
+}
+
+#side a:hover {
+    color: #4d4949;
+}
+
+#side {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    width: 250px;
+
+    font-size: 20px;
+}
+
+#sidebar {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.toggle-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+    width: 50px;
+    height: 50px;
+    background: black;
+}
+
+.fa {
+    display: none;
+}
+
+.toggle-button .active .fa-bars {
+    display: none;
+}
+
+.toggle-button .active .fa-xmark {
+    display: inline;
+}
