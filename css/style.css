@@ -307,7 +307,7 @@ footer p {
 
     .social-footer {
         text-align: center;
-        position: block;
+        position: relative;
         text-align: center;
     }
 
